@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -7,9 +7,8 @@ body {
     background-color: #f8f8f8;
 }
 
-/* Header Styles */
 header {
-    background-color: #8b572a;
+    background-color: #6c4a2b;
     color: #fff;
     text-align: center;
     padding: 2rem;
@@ -20,9 +19,8 @@ header p {
     margin-top: 10px;
 }
 
-/* Navigation Styles */
 nav {
-    background-color: #5e3920;
+    background-color: #4e2e18;
     color: #fff;
     padding: 1rem;
 }
@@ -40,15 +38,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #eededf; /* Light beige */
+    color: #eededf;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    color: #ffd483; /* Darker brown */
+    color: #ffd483;
 }
 
-/* Section Styles */
 section {
     margin: 20px;
     padding: 30px;
@@ -56,9 +53,8 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer Styles */
 footer {
-    background-color: #4e2e18; /* Dark brown */
+    background-color: #4e2e18;
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -67,26 +63,7 @@ footer {
     width: 100%;
 }
 
-/* Responsive Styles */
 @media only screen and (max-width: 600px) {
-    /* Adjustments for mobile view */
-    header {
-        padding: 1rem;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    section {
-        margin: 10px;
-        padding: 20px;
-    }
-}
-/* Responsive Styles */
-@media only screen and (max-width: 600px) {
-    /* Adjustments for mobile view */
     header {
         padding: 1rem;
     }
@@ -101,9 +78,8 @@ footer {
         padding: 20px;
     }
 
-    /* Responsive Footer Styles */
     footer {
-        position: static; /* Baguhin ang 'fixed' sa 'static' */
+        position: static;
         width: 100%;
     }
 }
