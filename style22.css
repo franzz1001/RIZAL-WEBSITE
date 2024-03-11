@@ -84,3 +84,26 @@ footer {
         padding: 20px;
     }
 }
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    /* Adjustments for mobile view */
+    header {
+        padding: 1rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    /* Responsive Footer Styles */
+    footer {
+        position: static; /* Baguhin ang 'fixed' sa 'static' */
+        width: 100%;
+    }
+}
