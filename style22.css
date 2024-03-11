@@ -37,12 +37,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #eededf; /* Light beige */
+    color: #eededf; 
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    color: #6e341b; /* Darker brown */
+    color: #ffd483;
 }
 
 section {
